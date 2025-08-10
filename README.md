@@ -36,8 +36,8 @@ After downloading:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/fish-classifier.git
-cd fish-classifier
+git clone https://github.com/Alfiya-Simran/fish-classification
+cd fish-classification
 ```
 2. Install dependencies:
 ```bash
