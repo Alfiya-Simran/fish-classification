@@ -70,5 +70,7 @@ streamlit run app.py
 
 6. EfficientNetB0
 
+---
+
 ## 📄 License
 This project is licensed under the MIT License.
