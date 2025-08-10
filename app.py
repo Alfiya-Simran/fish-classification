@@ -9,7 +9,7 @@ st.title("🐟 Fish Species Classifier")
 st.write("Upload an image of a fish and let the model predict its category!")
 
 # Load trained model
-MODEL_PATH = "MobileNetV2_best.h5"  # Path to best saved model
+MODEL_PATH = "cnn_best.h5"  # Path to best saved model
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Class labels (replace with actual dataset classes in correct order)
@@ -34,3 +34,4 @@ if uploaded_file is not None:
 
     st.write(f"### Prediction: **{predicted_class}**")
     st.write(f"**Confidence:** {confidence:.2f}")
+
